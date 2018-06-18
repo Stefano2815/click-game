@@ -9,13 +9,13 @@
   transition: all .2s ease-in-out;
 }
 
-.card > .img-container {
+.card>.img-container {
   height: 100%;
   overflow: hidden;
-  background:rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
 }
 
-.card > .img-container > img {
+.card>.img-container>img {
   height: 100%;
 }
 

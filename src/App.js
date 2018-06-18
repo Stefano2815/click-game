@@ -55,7 +55,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: "Glaven!",
+      rightWrong: "You Lose!",
       clicked: []
     });
     this.handleShuffle();
@@ -77,14 +77,14 @@ class App extends Component {
         />
 
         <Title>
-          Try to click on each character, but don't hit any duplicates, or
-          we'll release the hounds!!!
+          Try to click on each character, but dont hit any duplicates, or
+          well release the hounds!!!
         </Title>
 
         <Container>
           <Row>
             {this.state.friends.map(friend => (
-              <Column size="md-3 sm-6">
+              <Column size="md-2">
                 <FriendCard
                   key={friend.id}
                   handleClick={this.handleClick}
