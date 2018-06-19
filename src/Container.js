@@ -1,7 +1,7 @@
 import React from "react";
 
 const Container = props =>
-  <div className={`container col-md-12`}>
+  <div className={`container`}>
     {props.children}
   </div>;
 

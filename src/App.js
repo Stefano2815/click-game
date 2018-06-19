@@ -77,14 +77,15 @@ class App extends Component {
         />
 
         <Title>
-          Try to click on each character, but dont hit any duplicates, or
-          well release the hounds!!!
+          Try to click on each character, but don't hit any duplicates, or
+          we'll release the hounds!!!
         </Title>
 
         <Container>
           <Row>
             {this.state.friends.map(friend => (
-              <Column size="md-2">
+              <Column>
+
                 <FriendCard
                   key={friend.id}
                   handleClick={this.handleClick}
